@@ -77,18 +77,6 @@ namespace Test.SocketChat.ClientApp
 
     public static class Utils
     {
-        public static void InvokeIfRequired(this Control control, MethodInvoker action)
-        {
-            if (control.InvokeRequired)
-            {
-                control.Invoke(action);
-            }
-            else
-            {
-                action();
-            }
-        }
-
         public static void InvokeIfRequired(this Form form, MethodInvoker action)
         {
             if (form.InvokeRequired)
