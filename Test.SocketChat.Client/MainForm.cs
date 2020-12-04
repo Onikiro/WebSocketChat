@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Test.SocketChat.ClientApp
+namespace Test.SocketChat.Client
 {
     public partial class MainForm : Form
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Test.SocketChat.ClientApp
+namespace Test.SocketChat.Client
 {
     public class SocketChatSocketClient : IDisposable
     {

@@ -1,4 +1,4 @@
-﻿namespace Test.SocketChat.ClientApp
+﻿namespace Test.SocketChat.Client
 {
     partial class MainForm
     {
